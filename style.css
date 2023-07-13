@@ -1,0 +1,89 @@
+.container {
+    max-width: 960px;
+  }
+  
+  .backgorund{
+    background-image: 
+  radial-gradient(ellipse at 50% 50%, #a0b3e5 0%, #e8fbff 100%);
+  }
+.navbar{
+  background-color: #00ffff;
+}
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(236, 19, 19, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #c229c2;
+    text-decoration: none;
+  }
+
+  .project1{
+    background-image: 
+  repeating-linear-gradient(145.47deg, #bfe4ff 24%, #eaeff2 5%, #ceceff 55.07%, #dfd1f9 77%, #e6e3f5 93%, #eaeff2 100%);
+  }
+  .project2{
+
+    background-image: 
+  radial-gradient(ellipse at 50% 50%, #a0b3e5 0%, #e8fbff 100%);
+  }
+  .project3{
+    background-image: 
+    linear-gradient(69deg, #e5e7eb 0%, #acefe1 30%, #c5e4f9 50%, #b4eee1 70%, #e5e7eb 100%);
+  }
+  .project4{
+    background-image: 
+  linear-gradient(69deg, #ffc6cd 10%, #fecad0 35%, #f6dfe1 60%, #f6e5df 70%, #f6ecdd 80%, #e5e7eb 100%);
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  
+  .timeline-with-icons {
+    border-left: 10px solid hwb(0 100% 0%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline-with-icons .timeline-item {
+    position: relative;
+  }
+  
+  .timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline-with-icons .timeline-icon {
+    position: absolute;
+    left: -48px;
+    background-color: hsl(300, 3%, 7%);
+    color: hsl(0, 77%, 50%);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
